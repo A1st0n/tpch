@@ -81,3 +81,4 @@ CREATE TABLE lineitem (
     l_shipmode char(10) not null,
     l_comment varchar(44) not null
 );
+
