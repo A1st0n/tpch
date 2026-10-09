@@ -4,5 +4,5 @@ FROM orders
 JOIN customer ON o_custkey = c_custkey
 JOIN nation ON c_nationkey = n_nationkey
 JOIN region ON n_regionkey = r_regionkey
-WHERE r_name = 'ASIA'
+where r_name = 'ASIA'
 GROUP BY n_name, o_orderstatus;
